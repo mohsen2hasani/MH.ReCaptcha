@@ -1,7 +1,7 @@
 # MH.ReCaptcha
-Google ReCAPTCHA v2/v3 Library for .NET Core 2.x/3.x/5.x.
-based on 'AspNetCore.ReCaptcha' nuget.
-Support for multiple forms per page!
+Google ReCAPTCHA v2/v3 Library for .NET Core 2.x/3.x/5.x.   
+based on 'AspNetCore.ReCaptcha' nuget.  
+Support for multiple forms per page!    
 if you use ajax calls, call ```updateReCaptcha()``` after ajax call to get new ReCaptcha token
 
 ## Requirements
