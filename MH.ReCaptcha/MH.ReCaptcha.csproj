@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp3.1;netcoreapp2.1</TargetFrameworks>
+    <PackageId>MH.ReCaptcha</PackageId>
+    <Version>1.4.0</Version>
+    <Authors>Mohsen Hasani</Authors>
+    <Description>Google ReCAPTCHA v2/v3 Library for .NET Core 2.x/3.x/5.x, Support for multiple forms per page!
+based on 'MH.ReCaptcha' nuget
+if you use ajax calls, call 'updateReCaptcha()' after ajax call to get new ReCaptcha token</Description>
+    <PackageDescription>Google ReCAPTCHA v2/v3 Library for .NET Core 2.x/3.x/5.x</PackageDescription>
+    <RepositoryUrl>https://github.com/mohsen2hasani/MH.ReCaptcha</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Title>MH.ReCaptcha</Title>
+    <LangVersion>8.0</LangVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company>Mohsen Hasani</Company>
+    <PackageProjectUrl>https://github.com/mohsen2hasani/MH.ReCaptcha</PackageProjectUrl>
+    <Product>MH.ReCaptcha</Product>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp2.1'">
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.1.*" />
+    <PackageReference Include="System.Text.Json" Version="4.6.0" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp3.1'">
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="3.1.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="4.7.2" />
+  </ItemGroup>
+
+</Project>
