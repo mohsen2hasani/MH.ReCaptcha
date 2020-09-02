@@ -2,7 +2,7 @@
 Google ReCAPTCHA v2/v3 Library for .NET Core 2.x/3.x/5.x.   
 based on 'AspNetCore.ReCaptcha' nuget.  
 ### Support for multiple forms per page!    
-if you use ajax calls, call ```updateReCaptcha()``` after ajax call to get new ReCaptcha token
+if you using ajax calls, call ```updateReCaptcha()``` after ajax call to get new ReCaptcha token
 
 ## Requirements
 This package requires a secret key as well as a site key provided by ReCaptcha. You can aquire your keyset at [https://www.google.com/recaptcha/intro/v3.html](https://www.google.com/recaptcha/intro/v3.html). It's possible to use either v2 or v3 ReCaptcha.
