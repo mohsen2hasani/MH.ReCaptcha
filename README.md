@@ -90,8 +90,8 @@ You can learn more about request localization in .NET Core [here](https://docs.m
 ## Examples
 For every version of .NET Core there is a configured example included in this repository. Examples are linked below for quick access:
 
-[.NET Core 2.1](https://github.com/michaelvs97/MH.ReCaptcha/tree/master/Samples/MH.ReCaptcha.NetCore21)
+[.NET Core 2.1](https://github.com/mohsen2hasani/MH.ReCaptcha/tree/master/Samples/MH.ReCaptcha.NetCore21)
 
-[.NET Core 3.1](https://github.com/michaelvs97/MH.ReCaptcha/tree/master/Samples/MH.ReCaptcha.NetCore31)
+[.NET Core 3.1](https://github.com/mohsen2hasani/MH.ReCaptcha/tree/master/Samples/MH.ReCaptcha.NetCore31)
 
-[.NET Core 5.0](https://github.com/michaelvs97/MH.ReCaptcha/tree/master/Samples/MH.ReCaptcha.NetCore50)
+[.NET Core 5.0](https://github.com/mohsen2hasani/MH.ReCaptcha/tree/master/Samples/MH.ReCaptcha.NetCore50)
