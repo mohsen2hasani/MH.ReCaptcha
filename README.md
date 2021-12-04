@@ -1,3 +1,7 @@
+[![NuGet Status](https://img.shields.io/nuget/v/MH.ReCaptcha)](https://www.nuget.org/packages/MH.ReCaptcha)
+[![Nuget Status](https://img.shields.io/nuget/vpre/MH.ReCaptcha)](https://www.nuget.org/packages/MH.ReCaptcha)
+[![Nuget Status](https://img.shields.io/nuget/dt/MH.ReCaptcha)](https://www.nuget.org/packages/MH.ReCaptcha)
+
 # MH.ReCaptcha
 Google ReCAPTCHA v2/v3 Library for .NET Core 2.x/3.x/5.x.   
 based on 'AspNetCore.ReCaptcha' nuget.  
